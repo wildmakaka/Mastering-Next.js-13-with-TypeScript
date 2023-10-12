@@ -35,6 +35,12 @@ http://localhost:3000
 
 <br/>
 
+### 08. Data Fetching
+
+http://localhost:3000/users
+
+<br/>
+
 ---
 
 <br/>

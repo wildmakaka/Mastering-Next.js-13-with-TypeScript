@@ -2,17 +2,17 @@
 
 <br/>
 
-**Mastering Next.js 13 with TypeScript:**
+**Mastering Next.js 13 with TypeScript:**  
 https://codewithmosh.com/p/mastering-next-js-13-with-typescript
 
 <br/>
 
-**Next.js Projects: Build an Issue Tracker**
+**Next.js Projects: Build an Issue Tracker**  
 https://codewithmosh.com/p/nextjs-projects-issue-tracker
 
 <br/>
 
-**Original Src:**
+**Original Src:**  
 https://github.com/mosh-hamedani/next-course
 
 <br/>
