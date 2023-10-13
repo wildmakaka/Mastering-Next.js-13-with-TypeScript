@@ -29,6 +29,8 @@ https://github.com/mosh-hamedani/next-course
 
 ### [03. Styling](./docs/Chapter03.md)
 
+### [04. Routing and Navigation](./docs/Chapter04.md)
+
 <br/>
 
 ---
