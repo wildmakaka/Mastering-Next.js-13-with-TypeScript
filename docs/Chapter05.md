@@ -110,6 +110,10 @@ $ curl \
 
 <br/>
 
+### 08. Exercise - Building Products API
+
+<br/>
+
 ---
 
 <br/>
