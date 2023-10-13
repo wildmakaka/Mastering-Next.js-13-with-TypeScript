@@ -12,6 +12,12 @@ http://localhost:3000/api/users
 
 <br/>
 
+### 03. Getting a Single Object
+
+http://localhost:3000/api/users/1
+
+<br/>
+
 ---
 
 <br/>
