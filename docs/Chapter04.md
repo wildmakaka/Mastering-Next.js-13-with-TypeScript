@@ -50,6 +50,10 @@ http://localhost:3000/users
 
 <br/>
 
+### 08. Showing Loading UIs
+
+<br/>
+
 ---
 
 <br/>
