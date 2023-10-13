@@ -34,6 +34,12 @@ http://localhost:3000/users?sortOrder=email
 
 <br/>
 
+### 05. Layouts
+
+http://localhost:3000/admin
+
+<br/>
+
 ---
 
 <br/>
