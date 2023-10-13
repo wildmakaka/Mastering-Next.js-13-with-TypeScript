@@ -1,4 +1,4 @@
-import ProductCard from '@/app/components/ProductCard';
+import ProductCard from '@/app/components/ProductCard/ProductCard';
 import Link from 'next/link';
 
 export default function Home() {

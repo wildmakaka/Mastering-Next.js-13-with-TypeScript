@@ -41,6 +41,10 @@ http://localhost:3000/users
 
 <br/>
 
+![Application](/img/pic-ch02-img01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

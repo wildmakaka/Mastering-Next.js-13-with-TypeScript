@@ -27,6 +27,8 @@ https://github.com/mosh-hamedani/next-course
 
 ### [02. Next.js Fundamentals](./docs/Chapter02.md)
 
+### [03. Styling](./docs/Chapter03.md)
+
 <br/>
 
 ---
