@@ -54,6 +54,12 @@ http://localhost:3000/users
 
 <br/>
 
+### 09. Handling Not Found Errors
+
+http://localhost:3000/users/11
+
+<br/>
+
 ---
 
 <br/>

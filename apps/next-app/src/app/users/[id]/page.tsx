@@ -1,3 +1,5 @@
+import { notFound } from 'next/navigation';
+
 interface Props {
   params: {
     id: number;
@@ -5,6 +7,8 @@ interface Props {
 }
 
 const UserDetailPage = ({ params: { id } }: Props) => {
+  if (id > 10) notFound();
+
   return <div>UserDetailPage {id}</div>;
 };
 
