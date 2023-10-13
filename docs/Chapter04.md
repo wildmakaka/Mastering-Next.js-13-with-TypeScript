@@ -16,6 +16,12 @@ http://localhost:3000/users/2/photos/3
 
 <br/>
 
+### 04. Catch-all Segments
+
+http://localhost:3000/products/grocery/dairy/milk
+
+<br/>
+
 ---
 
 <br/>
