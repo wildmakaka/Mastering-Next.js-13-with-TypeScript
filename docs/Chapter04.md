@@ -22,6 +22,18 @@ http://localhost:3000/products/grocery/dairy/milk
 
 <br/>
 
+### 05. Accessing Query String Parameters
+
+http://localhost:3000/products?sortOrder=name
+
+```
+$ npm install fast-sort
+```
+
+http://localhost:3000/users?sortOrder=email
+
+<br/>
+
 ---
 
 <br/>
