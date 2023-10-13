@@ -18,6 +18,25 @@ http://localhost:3000/api/users/1
 
 <br/>
 
+### 04. Creating an Object
+
+<br/>
+
+```
+// SIGN UP
+// POST
+// OK!
+$ curl \
+    --data '{
+      "name":"Mosh"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/users \
+    | jq
+```
+
+<br/>
+
 ---
 
 <br/>
