@@ -54,6 +54,24 @@ $ curl \
 
 <br/>
 
+### 06. Deleting an Object
+
+<br/>
+
+```
+// DELETE
+// OK!
+$ curl \
+    --data '{
+      "name":"Mosh2"}' \
+    --header "Content-Type: application/json" \
+    --request DELETE \
+    --url http://localhost:3000/api/users/1 \
+    | jq
+```
+
+<br/>
+
 ---
 
 <br/>
