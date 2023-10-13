@@ -60,6 +60,12 @@ http://localhost:3000/users/11
 
 <br/>
 
+### 10. Handling Unexpected Errors
+
+ 
+
+<br/>
+
 ---
 
 <br/>
