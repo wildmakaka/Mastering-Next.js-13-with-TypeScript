@@ -23,7 +23,6 @@ http://localhost:3000/api/users/1
 <br/>
 
 ```
-// SIGN UP
 // POST
 // OK!
 $ curl \
@@ -32,6 +31,24 @@ $ curl \
     --header "Content-Type: application/json" \
     --request POST \
     --url http://localhost:3000/api/users \
+    | jq
+```
+
+<br/>
+
+### 05. Updating an Object
+
+<br/>
+
+```
+// PUT
+// OK!
+$ curl \
+    --data '{
+      "name":"Mosh2"}' \
+    --header "Content-Type: application/json" \
+    --request PUT \
+    --url http://localhost:3000/api/users/1 \
     | jq
 ```
 
