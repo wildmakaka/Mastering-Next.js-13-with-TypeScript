@@ -1,3 +1,5 @@
+'use client';
+
 interface Props {
   error: Error;
   reset: () => void;

@@ -34,35 +34,33 @@ http://localhost:3000/users?sortOrder=email
 
 <br/>
 
-### 05. Layouts
+### 06. Layouts
 
 http://localhost:3000/admin
 
 <br/>
 
-### 06. Navigation
+### 07. Navigation
 
 <br/>
 
-### 07. Programmatic Navigation
+### 08. Programmatic Navigation
 
 http://localhost:3000/users
 
 <br/>
 
-### 08. Showing Loading UIs
+### 09. Showing Loading UIs
 
 <br/>
 
-### 09. Handling Not Found Errors
+### 10. Handling Not Found Errors
 
 http://localhost:3000/users/11
 
 <br/>
 
-### 10. Handling Unexpected Errors
-
- 
+### 11. Handling Unexpected Errors
 
 <br/>
 
