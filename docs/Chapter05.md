@@ -72,6 +72,44 @@ $ curl \
 
 <br/>
 
+### 07. Validating Requests with Zod
+
+```
+$ npm install zod
+```
+
+<br/>
+
+```
+// PUT
+// OK!
+$ curl \
+    --data '{
+      "name":"AB"}' \
+    --header "Content-Type: application/json" \
+    --request PUT \
+    --url http://localhost:3000/api/users/1 \
+    | jq
+```
+
+**response:**
+
+```json
+[
+  {
+    "code": "too_small",
+    "minimum": 3,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "String must contain at least 3 character(s)",
+    "path": ["name"]
+  }
+]
+```
+
+<br/>
+
 ---
 
 <br/>
