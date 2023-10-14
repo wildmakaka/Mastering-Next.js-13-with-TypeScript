@@ -38,6 +38,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [05. Building APIs](./docs/Chapter05.md)
 
+### [06. Database Integration with Prisma](./docs/Chapter06.md)
+
 <br/>
 
 ---
