@@ -83,6 +83,22 @@ CREATE
 
 <br/>
 
+### 04. Understanding Authentication Sessions
+
+http://localhost:3000/api/auth/token
+
+```
+{
+  ***
+  "sub": "107273261339743439092",
+  "iat": 1697304477,
+  "exp": 1699896477,
+  "jti": "9091500a-eb31-4472-93e2-2640a40de224"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
