@@ -121,6 +121,29 @@ http://localhost:3000/dashboard/1
 
 <br/>
 
+### 09. Database Adapters
+
+https://authjs.dev/reference/adapter/prisma
+
+```
+$ npm install @next-auth/prisma-adapter
+```
+
+<br/>
+
+```
+Drop tables
+```
+
+<br/>
+
+```
+$ npx prisma migrate dev
+✔ Enter a name for the new migration: … add prisma models
+```
+
+<br/>
+
 ---
 
 <br/>
