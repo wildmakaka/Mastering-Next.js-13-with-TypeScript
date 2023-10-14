@@ -144,6 +144,26 @@ $ npx prisma migrate dev
 
 <br/>
 
+### 10. Configuring CredentialsProvider
+
+```
+$ npm install bcrypt
+$ npm install --save-dev @types/bcrypt
+```
+
+<br/>
+
+```
+$ npx prisma migrate dev
+✔ Enter a name for the new migration: … add password
+```
+
+<br/>
+
+![Application](/img/pic-ch08-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
