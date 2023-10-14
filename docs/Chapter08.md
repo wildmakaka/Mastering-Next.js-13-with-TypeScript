@@ -111,6 +111,10 @@ http://localhost:3000/api/auth/token
 
 <br/>
 
+### 07. Signing Out Users
+
+<br/>
+
 ---
 
 <br/>
