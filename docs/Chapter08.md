@@ -99,6 +99,10 @@ http://localhost:3000/api/auth/token
 
 <br/>
 
+### 05. Accessing Sessions on the Client
+
+<br/>
+
 ---
 
 <br/>
