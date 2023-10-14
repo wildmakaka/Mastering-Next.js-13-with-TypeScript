@@ -103,6 +103,14 @@ http://localhost:3000/api/auth/token
 
 <br/>
 
+### 06. Accessing Session on the Server
+
+<br/>
+
+![Application](/img/pic-ch08-img01.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
