@@ -12,6 +12,8 @@
 
 ### 02. Installing MySQL
 
+<br/>
+
 ```json
 version: '3'
 services:

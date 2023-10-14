@@ -68,42 +68,8 @@ Docker Compose version v2.22.0
 <br/>
 
 ```
-$ sudo apt install -y postgresql-client-common postgresql-client
-```
-
-<br/>
-
-```
-$ mkdir -p /home/marley/projects/dev/db/postgres
-$ cd /home/marley/projects/dev/db/postgres
-```
-
-<br/>
-
-```
-$ sudo vi /etc/hosts
-```
-
-<br/>
-
-```
-127.0.0.1 postgres
-```
-
-<br/>
-
-```
-$ vi .env
-```
-
-<br/>
-
-```
-DATABASE_HOST=postgres
-DATABASE_NAME=postgresdb
-DATABASE_PORT=5432
-DATABASE_USER=admin1
-DATABASE_PASSWORD=pA55w0rd123
+$ mkdir -p /home/marley/projects/dev/db/mysql
+$ cd /home/marley/projects/dev/db/mysql
 ```
 
 <br/>
@@ -117,19 +83,16 @@ $ vi docker-compose.yml
 ```yaml
 version: '3'
 services:
-  postgres:
-    container_name: postgres
-    image: postgres:15.2-alpine3.17
+  mysql-dev:
     restart: always
-    hostname: ${DATABASE_HOST}
+    image: mysql:8.1
     ports:
-      - ${DATABASE_PORT}:5432
-    environment:
-      POSTGRES_DB: ${DATABASE_NAME}
-      POSTGRES_USER: ${DATABASE_USER}
-      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      - '3306:3306'
     volumes:
-      - ./PGDATA:/var/lib/postgresql/data
+      - ./mysql:/etc/mysql/conf.d
+    environment:
+      MYSQL_DATABASE: nextapp
+      MYSQL_ROOT_PASSWORD: pA55w0rd123
 ```
 
 <br/>

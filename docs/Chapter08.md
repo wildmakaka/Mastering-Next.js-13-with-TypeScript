@@ -160,7 +160,38 @@ $ npx prisma migrate dev
 
 <br/>
 
+http://localhost:3000/api/auth/signin
+
+<br/>
+
 ![Application](/img/pic-ch08-img02.png?raw=true)
+
+<br/>
+
+### 11. Registering Users
+
+<br/>
+
+```
+// POST
+// OK!
+$ curl \
+    --data '{
+      "password":"pA55w0rd123",
+      "email":"marley@example.com"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/register \
+    | jq
+```
+
+<br/>
+
+http://localhost:3000/api/auth/signin
+
+<br/>
+
+![Application](/img/pic-ch08-img03.png?raw=true)
 
 <br/>
 
