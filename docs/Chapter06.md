@@ -52,11 +52,18 @@ $ npx prisma format
 $ npx prisma migrate dev
 ```
 
+<br/>
+
 ```
 ✔ Enter a name for the new migration: … [Initial]
 Applying migration `20231014100313_initial`
-
 ```
+
+<br/>
+
+### 06. Creating a Prisma Client
+
+https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices
 
 <br/>
 
