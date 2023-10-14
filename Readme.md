@@ -42,6 +42,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [07. Uploading Files](./docs/Chapter07.md)
 
+### [08. Authentication with Next Auth](./docs/Chapter08.md)
+
 <br/>
 
 ---
