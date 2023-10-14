@@ -60,6 +60,12 @@ Cloudinary -> Media Library
 
 <br/>
 
+### 06. Customizing the Upload Widget
+
+https://demo.cloudinary.com/uw
+
+<br/>
+
 ---
 
 <br/>
