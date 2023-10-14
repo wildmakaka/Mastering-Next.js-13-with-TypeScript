@@ -62,8 +62,6 @@ $ curl \
 // DELETE
 // OK!
 $ curl \
-    --data '{
-      "name":"Mosh2"}' \
     --header "Content-Type: application/json" \
     --request DELETE \
     --url http://localhost:3000/api/users/1 \

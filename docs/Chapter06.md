@@ -103,6 +103,120 @@ $ curl \
 
 <br/>
 
+### 09. Updating Data
+
+<br/>
+
+```
+// GET ALL
+// OK!
+$ curl \
+    --header "Content-Type: application/json" \
+    --request GET \
+    --url http://localhost:3000/api/users \
+    | jq
+```
+
+<br/>
+
+```
+[
+  {
+    "id": 1,
+    "email": "marley@example.com",
+    "name": "Marley",
+    "followers": 0,
+    "isActive": true,
+    "registeredAt": "2023-10-14T10:51:25.524Z"
+  }
+]
+```
+
+<br/>
+
+```
+// GET
+// OK!
+$ curl \
+    --header "Content-Type: application/json" \
+    --request GET \
+    --url http://localhost:3000/api/users/1 \
+    | jq
+```
+
+<br/>
+
+```
+// PUT
+// OK!
+$ curl \
+    --data '{
+      "name": "Marley1",
+      "email": "marley1@example.com"}' \
+    --header "Content-Type: application/json" \
+    --request PUT \
+    --url http://localhost:3000/api/users/1 \
+    | jq
+```
+
+<br/>
+
+### 10. Deleting Data
+
+<br/>
+
+```
+// DELETE
+// OK!
+$ curl \
+    --header "Content-Type: application/json" \
+    --request DELETE \
+    --url http://localhost:3000/api/users/1 \
+    | jq
+```
+
+<br/>
+
+### 11. Exercise - Storing Products in DB
+
+```
+$ npx prisma format
+$ npx prisma migrate dev
+```
+
+```
+✔ Enter a name for the new migration: … create product
+```
+
+<br/>
+
+```
+// POST
+// OK!
+$ curl \
+    --data '{
+      "name":"Milk",
+      "price":2.5}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/products \
+    | jq
+```
+
+<br/>
+
+```
+// GET
+// OK!
+$ curl \
+    --header "Content-Type: application/json" \
+    --request GET \
+    --url http://localhost:3000/api/products \
+    | jq
+```
+
+<br/>
+
 ---
 
 <br/>
