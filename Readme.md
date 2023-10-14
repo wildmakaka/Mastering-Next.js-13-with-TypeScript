@@ -40,6 +40,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [06. Database Integration with Prisma](./docs/Chapter06.md)
 
+### [07. Uploading Files](./docs/Chapter07.md)
+
 <br/>
 
 ---

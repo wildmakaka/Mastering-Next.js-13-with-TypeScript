@@ -6,6 +6,10 @@
 
 <br/>
 
+[Chapter Code Changes](https://github.com/webmakaka/Mastering-Next.js-13-with-TypeScript/pull/2)
+
+<br/>
+
 ### 02. Installing MySQL
 
 ```json
