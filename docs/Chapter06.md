@@ -67,6 +67,42 @@ https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs
 
 <br/>
 
+### 07. Getting Data
+
+<br/>
+
+### 08. Creating Data
+
+<br/>
+
+```
+// POST
+// OK!
+$ curl \
+    --data '{
+      "name":"Marley",
+      "email":"marley@example.com"}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:3000/api/users \
+    | jq
+```
+
+**response:**
+
+```json
+{
+  "id": 1,
+  "email": "marley@example.com",
+  "name": "Marley",
+  "followers": 0,
+  "isActive": true,
+  "registeredAt": "2023-10-14T10:51:25.524Z"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
