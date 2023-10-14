@@ -52,6 +52,14 @@ Cloudinary -> Media Library
 
 <br/>
 
+### 05. Showing Uploaded Images
+
+<br/>
+
+![Application](/img/pic-ch07-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
