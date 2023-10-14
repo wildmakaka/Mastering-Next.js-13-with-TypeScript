@@ -115,6 +115,12 @@ http://localhost:3000/api/auth/token
 
 <br/>
 
+### 08. Protecting Routes
+
+http://localhost:3000/dashboard/1
+
+<br/>
+
 ---
 
 <br/>
