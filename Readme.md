@@ -44,6 +44,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [08. Authentication with Next Auth](./docs/Chapter08.md)
 
+### [09. Sending Emails](./docs/Chapter09.md)
+
 <br/>
 
 ---
