@@ -20,6 +20,10 @@ https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
 
 <br/>
 
+### 04. Using Fonts
+
+<br/>
+
 ---
 
 <br/>

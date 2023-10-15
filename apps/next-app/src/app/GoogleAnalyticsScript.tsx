@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-const GoogleAnaliticsScript = () => {
+const GoogleAnalyticsScript = () => {
   return (
     <>
       <Script async src="" />
@@ -9,4 +9,4 @@ const GoogleAnaliticsScript = () => {
   );
 };
 
-export default GoogleAnaliticsScript;
+export default GoogleAnalyticsScript;

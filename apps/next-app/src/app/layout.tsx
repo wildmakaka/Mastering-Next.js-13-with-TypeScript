@@ -1,11 +1,22 @@
-import GoogleAnaliticsScript from '@/app/GoogleAnaliticsScript';
+import GoogleAnalyticsScript from '@/app/GoogleAnalyticsScript';
 import NavBar from '@/app/NavBar';
 import AuthProvider from '@/app/auth/Provider';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Roboto } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+});
+
+const myLocalFont = localFont({
+  src: '../../public/fonts/ResotE-Rose-89c1.woff',
+  variable: '--font-resotE-Rose',
+});
 
 export const metadata: Metadata = {
   title: 'The Ultimate Next.js Series',
@@ -19,8 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="winter">
-      <GoogleAnaliticsScript />
-      <body className={inter.className}>
+      <GoogleAnalyticsScript />
+      <body className={myLocalFont.variable}>
         <AuthProvider>
           <NavBar />
           <main className="p-5">{children}</main>
