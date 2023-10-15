@@ -48,6 +48,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [10. Optimizations](./docs/Chapter10.md)
 
+### [11. Deployment](./docs/Chapter11.md)
+
 <br/>
 
 ---

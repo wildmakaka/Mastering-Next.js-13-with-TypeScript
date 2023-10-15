@@ -2,6 +2,11 @@
 
 <br/>
 
+```
+$ npm install
+$ npm run dev
+```
+
 <br/>
 
 ---

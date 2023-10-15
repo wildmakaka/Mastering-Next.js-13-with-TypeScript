@@ -1,4 +1,4 @@
-import { authOptions } from '@/app/api/auth/[...nextauth]/route';
+import { authOptions } from '@/app/api/auth/authOptions';
 import ProductCard from '@/app/components/ProductCard/ProductCard';
 import { Metadata } from 'next';
 import { getServerSession } from 'next-auth';

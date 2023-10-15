@@ -1,4 +1,3 @@
-import { sort } from 'fast-sort';
 import Link from 'next/link';
 
 interface User {
@@ -17,9 +16,9 @@ const UserTable = async ({ sortOrder }: Props) => {
   });
   const users: User[] = await res.json();
 
-  const sortedUsers = sort(users).asc(
-    sortOrder === 'email' ? (user) => user.email : users.name
-  );
+  // const sortedUsers = sort(users).asc(
+  //   sortOrder === 'email' ? (user) => user.email : users.name
+  // );
 
   return (
     <table className="table table-bordered">
@@ -34,7 +33,8 @@ const UserTable = async ({ sortOrder }: Props) => {
         </tr>
       </thead>
       <tbody>
-        {sortedUsers.map((user) => (
+        {/* sortedUsers */}
+        {users.map((user) => (
           <tr key={user.id}>
             <td>{user.name}</td>
             <td>{user.email}</td>
