@@ -1,4 +1,4 @@
-# [Code With Mosh] The Ultimate Next.js Series [ENG, 2023]
+# [Code With Mosh] Mastering Next.js 13 with TypeScript [ENG, 2023]
 
 <br/>
 
