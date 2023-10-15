@@ -28,6 +28,12 @@ https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
 
 <br/>
 
+### 06. Lazy Loading
+
+Not working for me
+
+<br/>
+
 ---
 
 <br/>

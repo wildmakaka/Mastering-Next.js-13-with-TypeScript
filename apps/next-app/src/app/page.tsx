@@ -9,6 +9,8 @@ import MonkeyPic from '../../public/images/monkey.jpg';
 export default async function Home() {
   const session = await getServerSession(authOptions);
 
+  // const [isVisible, setVisible] = useState(false);
+
   return (
     <main className="relative h-screen">
       <h1>Hello {session && <span>{session.user!.name}</span>}</h1>
@@ -22,6 +24,8 @@ export default async function Home() {
         priority
       />
       <ProductCard />
+      {/* <button onClick={() => setVisible(true)}>Show</button> */}
+      {/* {isVisible && <HeavyComponent />} */}
     </main>
   );
 }
