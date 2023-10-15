@@ -21,6 +21,10 @@ const myLocalFont = localFont({
 export const metadata: Metadata = {
   title: 'The Ultimate Next.js Series',
   description: '[Code With Mosh] The Ultimate Next.js Series [ENG, 2023]',
+  openGraph: {
+    title: '...',
+    description: '...',
+  },
 };
 
 export default function RootLayout({

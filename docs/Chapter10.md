@@ -24,6 +24,10 @@ https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
 
 <br/>
 
+### 05. Search Engine Optimization
+
+<br/>
+
 ---
 
 <br/>
