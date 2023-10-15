@@ -16,6 +16,10 @@ https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
 
 <br/>
 
+### 03. Using Third-party Scripts (Google Analytics)
+
+<br/>
+
 ---
 
 <br/>

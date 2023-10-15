@@ -1,3 +1,4 @@
+import GoogleAnaliticsScript from '@/app/GoogleAnaliticsScript';
 import NavBar from '@/app/NavBar';
 import AuthProvider from '@/app/auth/Provider';
 import type { Metadata } from 'next';
@@ -18,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="winter">
+      <GoogleAnaliticsScript />
       <body className={inter.className}>
         <AuthProvider>
           <NavBar />
