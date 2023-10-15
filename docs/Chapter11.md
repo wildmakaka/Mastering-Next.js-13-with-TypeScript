@@ -2,14 +2,6 @@
 
 <br/>
 
-## 10. Optimizations
-
-<br/>
-
-[Chapter Code Changes](https://github.com/webmakaka/Mastering-Next.js-13-with-TypeScript/pull/6)
-
-<br/>
-
 ### 11. Deployment
 
 https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
@@ -20,6 +12,26 @@ https://nextjs.org/docs/pages/api-reference/components/image#remotepatterns
 
 ```
 $ npm run build
+```
+
+<br/>
+
+### 03. Pushing the Code to GitHub
+
+<br/>
+
+### 04. Deploying to Vercel
+
+<br/>
+
+### 05. Troubleshooting Deployment Errors
+
+```
+Build Command: npx prisma generate && next build
+```
+
+```
+$ npm install --save-dev encoding
 ```
 
 <br/>
