@@ -46,6 +46,8 @@ https://github.com/mosh-hamedani/issue-tracker/
 
 ### [09. Sending Emails](./docs/Chapter09.md)
 
+### [10. Optimizations](./docs/Chapter10.md)
+
 <br/>
 
 ---
